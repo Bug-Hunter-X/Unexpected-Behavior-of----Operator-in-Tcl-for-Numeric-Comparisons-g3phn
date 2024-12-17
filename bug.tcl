@@ -1,0 +1,1 @@
+proc buggyProc {a b} {  if {$a == $b} {    return 1  }  return 0}puts [buggyProc 1 1.0]
